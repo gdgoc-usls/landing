@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "check-lint": "eslint . --ext ts --ext tsx",
-    "check-types": "tsc --pretty --noEmit",
-    "prepare": "husky install"
+    "check-types": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
@@ -44,15 +43,9 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.1.0",
     "postcss": "^8.4.19",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.2.4"
-  },
-  "lint-staged": {
-    "*.{js,ts,tsx}": "eslint --cache --fix",
-    "*.{js,ts,tsx,css,md}": "prettier --write"
   }
 }

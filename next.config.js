@@ -6,17 +6,7 @@ const nextConfig = {
     return [
       {
         source: '/awards',
-        destination: 'https://awards.gdsc-usls.live',
-        permanent: false,
-      },
-      {
-        source: '/apply',
-        destination: 'https://forms.gle/gKqw4DpnV3EwQCiHA',
-        permanent: false,
-      },
-      {
-        source: '/membership',
-        destination: 'https://forms.gle/cD4iv3SRHWHAwZX36',
+        destination: 'https://gdsc-awards.omsimos.com/',
         permanent: false,
       },
     ];
