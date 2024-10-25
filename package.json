@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "check-lint": "eslint . --ext ts --ext tsx",
-    "check-types": "tsc --pretty --noEmit",
+    "check-types": "tsc --pretty --noEmit"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
