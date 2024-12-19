@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { ArrowRightIcon } from '@radix-ui/react-icons';
 
 export const Contact = () => {
   return (
@@ -71,11 +72,13 @@ export const Contact = () => {
                   id='message'
                   required
                 />
-                <input
+                <button
                   type='submit'
-                  value='Send'
-                  className='absolute bottom-2 right-0  cursor-pointer rounded-full bg-white px-3 py-5 text-xs font-bold text-black'
-                />
+                  className='absolute bottom-2 right-0 flex items-center justify-center cursor-pointer rounded-full bg-black p-3 text-white transition hover:bg-gray-800'
+                  aria-label='Send Message'
+                >
+                  <ArrowRightIcon className='w-5 h-5' />
+                </button>
               </div>
             </label>
           </div>
