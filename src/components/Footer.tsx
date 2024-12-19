@@ -21,7 +21,6 @@ export const Footer = () => {
         },
       ],
     },
-
     {
       title: 'Projects',
       items: [
@@ -43,7 +42,6 @@ export const Footer = () => {
         },
       ],
     },
-
     {
       title: 'Contact',
       items: [
@@ -66,12 +64,12 @@ export const Footer = () => {
   const router = useRouter();
 
   return (
-    <footer className='contain mt-96 flex w-full flex-col justify-between border-t-[1px] border-t-gray-500 pt-16 font-montserrat '>
+    <footer className='flex w-full flex-col justify-between border-t-[1px] border-t-gray-500 pt-16 font-montserrat px-7 md:px-14 max-w-screen-2xl mx-auto'>
       <div className='flex w-full flex-col justify-between gap-20 whitespace-nowrap lg:flex-row lg:gap-40 xl:gap-96'>
         <div className='text-white'>
           <div className='block text-3xl font-medium'>
             <p className='font-merchant-thin-condensed'>
-              GDSC — University of St. La Salle
+              GDGOC — University of St. La Salle
             </p>
             <p className='text-xl font-light text-gray-400'>
               Powered by Intellect, <br />
@@ -87,7 +85,7 @@ export const Footer = () => {
             return (
               <div key={title} className='space-y-2 text-sm md:text-base'>
                 <h3 className='font-medium text-white'>{title}</h3>
-                <ul className='flex flex-col  space-y-2 font-normal text-gray-400 [&>li>a:hover]:text-gray-500 [&>li>a:hover]:transition-all'>
+                <ul className='flex flex-col space-y-2 font-normal text-gray-400 [&>li>a:hover]:text-gray-500 [&>li>a:hover]:transition-all'>
                   {items.map((item) => (
                     <li key={item.title}>
                       {item.route ? (
@@ -115,7 +113,7 @@ export const Footer = () => {
         </div>
       </div>
       <p className='mt-28 pb-8 text-center text-xs text-gray-400 md:text-base'>
-        &copy; 2023 Google Developer Groups on Campus — USLS. All Rights
+        &copy; 2024 Google Developer Groups on Campus — USLS. All Rights
         Reserved.
       </p>
     </footer>
