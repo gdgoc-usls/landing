@@ -1,15 +1,15 @@
 const description =
-  'Google Developer Student Clubs - USLS is a community of developers that are passionate about uplifting and educating communities through technology and innovation while enriching Lasallian virtues.';
+  'Google Developer Groups on Campus - USLS is a community of developers that are passionate about uplifting and educating communities through technology and innovation while enriching Lasallian virtues.';
 
 const imgUrl =
   'https://user-images.githubusercontent.com/69457996/223909395-d151c5c8-56bd-44ac-bfa0-c4ddfd26b87f.png';
 
 export default {
-  title: 'Google Developer Student Clubs - USLS',
+  title: 'Google Developer Groups on Campus - USLS',
   description,
   openGraph: {
     type: 'website',
-    url: 'https://gdsc-usls.live',
+    url: 'https://gdsc.omsimos.com/',
     title: 'Powered by Intellect, Driven by Values',
     description,
     images: [

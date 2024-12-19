@@ -115,7 +115,8 @@ export const Footer = () => {
         </div>
       </div>
       <p className='mt-28 pb-8 text-center text-xs text-gray-400 md:text-base'>
-        &copy; 2023 Google Developer Student Clubs — USLS. All Rights Reserved.
+        &copy; 2023 Google Developer Groups on Campus — USLS. All Rights
+        Reserved.
       </p>
     </footer>
   );

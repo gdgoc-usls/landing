@@ -73,7 +73,7 @@ export default function Apply() {
       ) : (
         <div className='mx-auto min-h-screen max-w-sm pt-40 font-googleSans-regular text-white'>
           <h1 className='font-merchant-thin-condensed text-4xl'>
-            Join GDSC—USLS!
+            Join GDGOC—USLS!
           </h1>
 
           <form onSubmit={handleAdd} className='mt-12 flex flex-col gap-y-4'>
