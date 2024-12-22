@@ -7,7 +7,6 @@ import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
 
 import { db } from '~/config/firebase';
 import useLayoutEffect from '~/hooks/useIsomorphicLayoutEffect';
-import Image from 'next/image';
 
 type Member = {
   id: string;
