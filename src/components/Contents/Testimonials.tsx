@@ -5,37 +5,31 @@ export const Testimonials = () => {
   const testimonials = [
     {
       name: 'Jarl Briones',
-      role: 'GDSC USLS Lead',
+      role: 'Former GDSC USLS Lead',
       message:
         'GDSC - USLS has been instrumental in my growth, helping me tap into my potential and drive positive change within our community.',
     },
     {
       name: 'Gian Aibo Boyero',
-      role: 'Former GDSC USLS Lead',
+      role: 'GDGOC USLS Lead',
       message:
-        "GDSC - USLS is an extraordinary community of talented and dedicated individuals who constantly strive to learn, grow and achieve their goals. I am so grateful to be a part of this community, and I know that I'm learning, growing every day, and had limitless opportunities because of what they have established.",
+        "GDGOC is an extraordinary community of talented and dedicated individuals who constantly strive to learn, grow and achieve their goals. I am so grateful to be a part of this community, and I know that I'm learning, growing every day, and had limitless opportunities because of what they have established.",
     },
-    // {
-    //   name: 'Jiyun Bae',
-    //   role: 'GDSC SWU Lead',
-    //   message:
-    //     'It was a pleasure to work with GDSC-USLS. Gian has a wonderful team of kind and helpful people, and the positive energy that comes from this team is worth some praise. It is an honour to have worked with such a team.',
-    // },
     {
       name: 'Joseph Dale Bañares',
-      role: 'Chief Technology Officer',
+      role: 'Former Chief Technology Officer',
       message:
         'GDSC has provided me with invaluable experiences, opportunities, and connections, and has allowed me to grow both technically and socially within a supportive community of passionate learners.',
     },
     {
-      name: 'Leigh Andrew Eslawa',
-      role: 'Former Graphics Lead',
+      name: 'Lhiam Andrei Lingco',
+      role: 'Web Developer Lead',
       message:
-        'Working for GDSC has been like embarking on a grand literary adventure, with each chapter bringing new lessons, experiences, and new insights that will undoubtedly shape my future.',
+        'GDGOC has been a great platform for me to enhance my skills, collaborate with amazing individuals, and contribute to impactful projects that inspire growth and innovation.',
     },
     {
       name: 'Josh Daniel Bañares',
-      role: 'Former CTO',
+      role: 'Former Chief Technology Officer',
       message:
         'GDSC has been a catalyst for my personal growth. It has enabled me to connect with exceptional individuals, learn critical skills, and grow as a person.',
     },
@@ -44,11 +38,11 @@ export const Testimonials = () => {
   return (
     <section className='contain relative mb-20 pt-20  text-white  md:mb-0 xl:mb-56'>
       <div id='testimonials-title' className='mb-20'>
-        <h3 className='text-title xl:mb-10'>The GDSC Experience</h3>
+        <h3 className='text-title xl:mb-10'>The GDGOC Experience</h3>
         <div className='grid-cols-2 border-t-[1px] border-t-white pt-7 xl:grid xl:pt-10'>
           <p className='text-body mb-3 uppercase xl:mb-0'>About Us</p>
           <p className='text-body'>
-            GDSC is a community of passionate learners who are dedicated to
+            GDGOC is a community of passionate learners who are dedicated to
             explore the endless possibilities of technology through interactive
             workshops, engaging initiatives, and camaraderie, with a focus on
             individual and communal growth. Hear from our members about how we

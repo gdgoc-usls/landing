@@ -103,7 +103,7 @@ const Partners = () => {
               className='logo mx-auto scale-[0.6] sm:scale-75 md:scale-100'
             />
             <p className='mt-2 text-center font-googleSans-medium font-medium text-white'>
-              Google Developer Student Clubs
+              Google Developer Groups on Campus
             </p>
             <p className='max-w-xs text-center font-googleSans-regular text-white'>
               {partner}
