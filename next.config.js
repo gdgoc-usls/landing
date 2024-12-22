@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    TURSO_DATABASE_URL: process.env.TURSO_DATABASE_URL,
+  },
   async redirects() {
     return [
       {
