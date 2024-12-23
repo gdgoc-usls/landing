@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main", "dev"]
+    branches: ['main', 'dev']
   pull_request:
     types: [opened, synchronize]
 
@@ -18,14 +18,16 @@ jobs:
         with:
           fetch-depth: 2
 
-      - uses: oven-sh/setup-bun@v1
-        with:
-          bun-version: latest
+      - name: Install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
       - name: Install dependencies
-        run: bun install
+        run: pnpm install
 
-      - name: Build
-        env:
-          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
-        run: bun run build
+      - name: Lint files
+        run: pnpm lint
+
+      - name: Build project
+        run: pnpm build
