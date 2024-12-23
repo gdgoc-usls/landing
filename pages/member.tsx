@@ -1,7 +1,8 @@
-import React, { FormEventHandler, useState } from 'react';
+import Image from 'next/image';
 import { gsap } from 'gsap';
 import { toast } from 'sonner';
 import Tilt from 'react-parallax-tilt';
+import React, { FormEventHandler, useState } from 'react';
 import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
 
 import { db } from '~/config/firebase';
@@ -73,7 +74,7 @@ export default function Apply() {
       ) : (
         <div className='mx-auto min-h-screen max-w-sm pt-40 font-googleSans-regular text-white'>
           <h1 className='font-merchant-thin-condensed text-4xl'>
-            Join GDSC—USLS!
+            Join GDGOC—USLS!
           </h1>
 
           <form onSubmit={handleAdd} className='mt-12 flex flex-col gap-y-4'>
@@ -157,10 +158,10 @@ const Badge = ({
             <p className='text-primary-100'>{firstName}</p>
             <p className='text-primary-100'>{lastName}</p>
           </div>
-          <img
+          <Image
             className='pointer-events-none h-full w-full rounded object-contain'
             src='/images/apply/badge.png'
-            alt='Appreciation Certificate'
+            alt='Apply Badge'
           />
         </div>
       </Tilt>

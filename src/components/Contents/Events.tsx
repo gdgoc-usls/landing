@@ -6,12 +6,12 @@ export const Events = () => {
     {
       title: 'Google Awards',
       date: 'July 15, 2023',
-      link: 'https://awards.gdsc-usls.live',
+      link: 'https://gdsc-awards.omsimos.com/',
     },
     {
       title: 'Solution Challenge',
       date: 'March, 2023',
-      link: 'https://gdsc-usls.live/solcha-info',
+      link: 'https://gdsc.omsimos.com/solcha-info',
     },
     {
       title: 'International Event: Perennial',

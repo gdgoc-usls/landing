@@ -38,7 +38,7 @@ export const About = () => {
       />
       <div id='about-gdsc-title' className='mx-auto mb-40 xl:w-3/4'>
         <h2 className='text-title mr-auto mb-5 whitespace-nowrap sm:mb-10'>
-          Google Developer <br /> Student Clubs —
+          Google Developer <br /> Groups on Campus —
         </h2>
         <p className='text-body ml-auto w-full text-right font-merchant-thin sm:w-[80%] md:leading-8 lg:w-[65%]'>
           Gathering like-minded, inquisitive youths who are eager to learn and
@@ -67,7 +67,7 @@ export const About = () => {
       <div>
         <div id='gdsc-usls-title' className='mx-auto text-white xl:w-3/4'>
           <h3 className='text-title mb-2 md:mb-5 lg:translate-x-6 2xl:-translate-x-20 2xl:text-center'>
-            GDSC - USLS
+            GDGOC - USLS
           </h3>
           <p className='text-body font-merchant-thin sm:w-[80%] lg:mx-auto 2xl:w-1/2'>
             We foster innovation, compassion, and technical excellence. Our

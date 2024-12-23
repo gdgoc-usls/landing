@@ -2,33 +2,32 @@ name: CI
 
 on:
   push:
-    branches:
-      - main
-      - dev
+    branches: ['main', 'dev']
   pull_request:
-    branches:
-      - main
-      - dev
+    types: [opened, synchronize]
 
 jobs:
-  lint:
-    name: Check for lint and format errors
+  build:
+    name: Build
+    timeout-minutes: 15
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Setup node
-        uses: actions/setup-node@v1
+      - name: Check out code
+        uses: actions/checkout@v3
         with:
-          node-version: 16
+          fetch-depth: 2
+
+      - name: Install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Lint files
-        run: yarn lint
+        run: pnpm lint
 
       - name: Build project
-        run: yarn build
+        run: pnpm build

@@ -1,4 +1,5 @@
 /* eslint-disable no-param-reassign */
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useEffect, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/dist/ScrollToPlugin';
@@ -97,10 +98,11 @@ export const Navbar = () => {
           href='/'
           className='logo font-merchant-expanded text-xl opacity-0'
         >
-          GDSC USLS
+          GDGOC USLS
         </Link>
 
         <button
+          aria-label='Toggle menu'
           type='button'
           className='menu-burger group flex  w-8 cursor-pointer flex-col items-center justify-center space-y-1 py-3 opacity-0 [&>span]:block [&>span]:h-[1.5px] [&>span]:w-full [&>span]:transform [&>span]:bg-white [&>span]:transition [&>span]:duration-300'
           onClick={() => handleMenu()}
