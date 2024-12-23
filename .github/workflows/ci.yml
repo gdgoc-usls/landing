@@ -30,6 +30,4 @@ jobs:
         run: pnpm lint
 
       - name: Build project
-        env:
-          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
         run: pnpm build
