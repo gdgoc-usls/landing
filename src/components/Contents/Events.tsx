@@ -1,32 +1,33 @@
 import React from 'react';
 import Image from 'next/image';
+import router from 'next/router';
 
 export const Events = () => {
   const events = [
     {
-      title: 'Google Awards',
-      date: 'July 15, 2023',
-      link: 'https://gdsc-awards.omsimos.com/',
+      title: 'SONDER: International GDG on Campus Community Building',
+      date: 'Dec 20, 2024',
+      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-sonder-international-gdg-on-campus-community-building-study-group-2024/',
     },
     {
-      title: 'Solution Challenge',
-      date: 'March, 2023',
-      link: 'https://gdsc.omsimos.com/solcha-info',
+      title: 'View-Source Networking Session',
+      date: 'Dec 14, 2024',
+      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-view-source-networking-session/',
     },
     {
-      title: 'International Event: Perennial',
-      date: 'Dec 5-6, 2022',
-      link: 'https://gdsc.community.dev/events/details/developer-student-clubs-university-of-st-la-salle-presents-international-gdsc-chapters-collab-perennial-diving-into-the-world-of-software/',
+      title: 'Core Team - Team Building Program',
+      date: 'Nov 9, 2024',
+      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-core-team-team-building-program/',
     },
     {
-      title: '1st General Assembly',
-      date: 'Sep 30, 2022',
-      link: 'https://gdsc.community.dev/events/details/developer-student-clubs-university-of-st-la-salle-presents-1st-general-assembly/',
+      title: '1st General Assembly & Chapter Characters Info Session',
+      date: 'Nov 8, 2024',
+      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-1st-general-assembly-amp-chapter-characters-info-session/',
     },
     {
-      title: 'Info Session',
-      date: 'Sep 24, 2022',
-      link: 'https://gdsc.community.dev/events/details/developer-student-clubs-university-of-st-la-salle-presents-info-session-ay-2022-2023/',
+      title: 'Public Relations Department Study Group & Working Session',
+      date: 'Oct 30, 2024',
+      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-public-relations-department-study-group-amp-working-session/',
     },
   ];
 
@@ -49,14 +50,22 @@ export const Events = () => {
           </li>
         ))}
       </ul>
-
+      <div className='flex justify-center'>
+        <button
+          type='button'
+          className='pt-5 text-body hover-effect border-b-[1px] text-white animated-gradient text-title uppercase'
+          onClick={() => router.push('https://gdgoc-event.vercel.app')}
+        >
+          More Events
+        </button>
+      </div>
       <Image
         priority
         src='/images/gradients/gradientYellowRed.png'
         alt='Gradient Yellow'
         height={1000}
         width={1000}
-        className='pointer-events-none absolute -top-1/2 right-0'
+        className='pointer-events-none absolute -top-1/2 right-0 '
       />
     </div>
   );
