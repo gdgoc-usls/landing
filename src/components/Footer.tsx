@@ -22,27 +22,6 @@ export const Footer = () => {
       ],
     },
     {
-      title: 'Projects',
-      items: [
-        {
-          title: 'Landing Page',
-          link: 'https://github.com/gdsc-usls/landing',
-        },
-        {
-          title: 'Google Awards',
-          link: 'https://github.com/gdsc-usls/google-awards',
-        },
-        {
-          title: 'ID Generator',
-          link: 'https://github.com/gdsc-usls/id-generator',
-        },
-        {
-          title: 'Certificate Generator',
-          link: 'https://github.com/gdsc-usls/certificate-generator',
-        },
-      ],
-    },
-    {
       title: 'Contact',
       items: [
         {
@@ -78,7 +57,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className='flex w-full justify-between'>
+        <div className='flex w-full justify-around'>
           {data.map((data) => {
             const { title, items } = data;
 
