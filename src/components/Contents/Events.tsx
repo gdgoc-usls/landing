@@ -50,10 +50,10 @@ export const Events = () => {
           </li>
         ))}
       </ul>
-      <div className='flex justify-center'>
+      <div className='flex justify-end'>
         <button
           type='button'
-          className='pt-5 text-body hover-effect border-b-[1px] text-white animated-gradient text-title uppercase'
+          className='pt-5 text-body hover-effect text-white animated-gradient text-title uppercase'
           onClick={() => router.push('https://gdgoc-event.vercel.app')}
         >
           More Events
