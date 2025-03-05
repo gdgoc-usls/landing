@@ -18,25 +18,13 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Setup Node.js and PNPM
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'pnpm'
-
-      - name: Install PNPM
-        run: corepack prepare pnpm@8.15.5 --activate # Use the latest stable version
-
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ~/.pnpm-store
-          key: pnpm-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            pnpm-${{ runner.os }}-
+      - name: Install pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
 
       - name: Lint files
         run: pnpm lint
