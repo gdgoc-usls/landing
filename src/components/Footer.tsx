@@ -8,15 +8,15 @@ export const Footer = () => {
       items: [
         {
           title: 'Awards',
-          link: 'https://gdgoc.usls.edu.ph/awards',
+          link: 'https://awards.gdsc-usls.live/awards',
         },
         {
           title: 'Ticket',
-          link: 'https://gdgoc.usls.edu.ph/ticket',
+          link: 'https://awards.gdsc-usls.live/ticket',
         },
         {
           title: 'Homepage',
-          link: 'https://gdgoc.usls.edu.ph',
+          link: 'https://awards.gdsc-usls.live',
           route: false,
         },
       ],
