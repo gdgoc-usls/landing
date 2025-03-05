@@ -26,7 +26,7 @@ export const Footer = () => {
       items: [
         {
           title: 'Github',
-          link: 'https://github.com/gdsc-usls',
+          link: 'https://github.com/gdgoc-usls',
         },
         {
           title: 'Facebook',
@@ -34,7 +34,7 @@ export const Footer = () => {
         },
         {
           title: 'Instagram',
-          link: 'https://www.instagram.com/gdsc_usls/',
+          link: 'https://www.instagram.com/gdg.usls/',
         },
       ],
     },
@@ -92,7 +92,7 @@ export const Footer = () => {
         </div>
       </div>
       <p className='mt-28 pb-8 text-center text-xs text-gray-400 md:text-base'>
-        &copy; 2024 Google Developer Groups on Campus — USLS. All Rights
+        &copy; 2025 Google Developer Groups on Campus — USLS. All Rights
         Reserved.
       </p>
     </footer>
