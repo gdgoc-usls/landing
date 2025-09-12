@@ -1,3 +1,42 @@
+export const testimonials = [
+    {
+      name: 'Jarl Briones',
+      role: 'Former GDSC USLS Lead',
+      message:
+        'GDSC - USLS has been instrumental in my growth, helping me tap into my potential and drive positive change within our community.',
+    },
+    {
+      name: 'Gian Aibo Boyero',
+      role: 'GDGOC USLS Lead',
+      message:
+        "GDGOC is an extraordinary community of talented and dedicated individuals who constantly strive to learn, grow and achieve their goals. I am so grateful to be a part of this community, and I know that I'm learning, growing every day, and had limitless opportunities because of what they have established.",
+    },
+    {
+      name: 'Joseph Dale Bañares',
+      role: 'Former Chief Technology Officer',
+      message:
+        'GDSC has provided me with invaluable experiences, opportunities, and connections, and has allowed me to grow both technically and socially within a supportive community of passionate learners.',
+    },
+    {
+      name: 'Lhiam Andrei Lingco',
+      role: 'Web Developer Lead',
+      message:
+        'GDGOC has been a great platform for me to enhance my skills, collaborate with amazing individuals, and contribute to impactful projects that inspire growth and innovation.',
+    },
+    {
+      name: 'John Roland Octavio',
+      role: 'Chief Technology Officer `24-26',
+      message:
+        'GDG-USLS gave me the chance to enhance my technical skills, bond with like-minded individuals, and grow into a better person overall.',
+    },
+    {
+      name: 'Josh Daniel Bañares',
+      role: 'Former Chief Technology Officer',
+      message:
+        'GDSC has been a catalyst for my personal growth. It has enabled me to connect with exceptional individuals, learn critical skills, and grow as a person.',
+    },
+  ];
+
 export const markdown = {
   solcha: `
   # GDSC Solutions Challenge 2023
