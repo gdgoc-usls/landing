@@ -5,29 +5,29 @@ import router from 'next/router';
 export const Events = () => {
   const events = [
     {
+      title: 'AImagine: Build with AI',
+      date: 'Apr 29, 2025',
+      link: 'https://www.facebook.com/dsc.usls/posts/pfbid026MXJ2BKpLzj9CG1kDrntwen1wAjqXCgRCHz7UK5JpkimMQnRDzpX952DVjMqWtZXl',
+    },
+    {
+      title: 'TechCare: Project Dagtaan',
+      date: 'Mar 22, 29 and Apr 5, 2025',
+      link: 'https://project-dagtaan.vercel.app/',
+    },
+    {
+      title: 'Sonder 2025: Vietnam',
+      date: 'Feb 22, 2025',
+      link: 'https://www.facebook.com/dsc.philippines/posts/pfbid0gugpw3Rso6EWU49PLS3y6CzJUzDXXwNFHdSxCqvSZUDWRXEYmby3GhYeqD48Pnz4l?rdid=BkXBXGgLOGPDe5YH#',
+    },
+    {
+      title: 'Sonder 2025: Indonesia',
+      date: 'Jan 11, 2025',
+      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-sonder-google-dev-world-tour-in-indonesia/cohost-gdg-on-campus-university-of-st-la-salle-bacolod-philippines',
+    },
+    {
       title: 'SONDER: International GDG on Campus Community Building',
       date: 'Dec 20, 2024',
       link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-sonder-international-gdg-on-campus-community-building-study-group-2024/',
-    },
-    {
-      title: 'View-Source Networking Session',
-      date: 'Dec 14, 2024',
-      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-view-source-networking-session/',
-    },
-    {
-      title: 'Core Team - Team Building Program',
-      date: 'Nov 9, 2024',
-      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-core-team-team-building-program/',
-    },
-    {
-      title: '1st General Assembly & Chapter Characters Info Session',
-      date: 'Nov 8, 2024',
-      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-1st-general-assembly-amp-chapter-characters-info-session/',
-    },
-    {
-      title: 'Public Relations Department Study Group & Working Session',
-      date: 'Oct 30, 2024',
-      link: 'https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-st-la-salle-bacolod-philippines-presents-public-relations-department-study-group-amp-working-session/',
     },
   ];
 

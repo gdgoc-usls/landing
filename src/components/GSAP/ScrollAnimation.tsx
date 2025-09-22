@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import useIsomorphicLayoutEffect from '~/hooks/useIsomorphicLayoutEffect';
+import { testimonials } from '~/utils/constants';
 
 export const ScrollAnimation = ({
   children,
@@ -122,8 +123,8 @@ export const ScrollAnimation = ({
         },
       ];
 
-      // Looping through testimonials for individual scroll trigs
-      for (let i = 0; i < 5; i++) {
+      // Looping through testimonials for individual scroll trigs - just add more testimonials in the testimonials array
+      for (let i = 0; i < testimonials.length; i++) {
         textsTarget.push({
           trigger: `#testimony-${i}`,
           target: `#testimony-${i} p`,
